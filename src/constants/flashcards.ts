@@ -15,7 +15,7 @@ export const FLASHCARDS: FlascardType[] = [
     id: crypto.randomUUID(),
     question: "What is a closure in JavaScript?",
     answer:
-      "A closure is a function that retains access to its lexical scope, even when the function is executed outside crypto.randomUUID()hat scope.",
+      "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope.",
   },
   {
     id: crypto.randomUUID(),

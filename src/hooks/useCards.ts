@@ -11,8 +11,10 @@ export const useCards = () => {
     const updateCardIndex = (type: "next" | "previous") => {
       if (type === "next" && isFirstCard) {
         setCardIndex((prevState) => ++prevState);
+        setShowAnswer(false)
       } else if (type === "previous" && isLastCard) {
         setCardIndex((prevState) => --prevState);
+        setShowAnswer(false)
       } else {
         setCardIndex(0);
       }
